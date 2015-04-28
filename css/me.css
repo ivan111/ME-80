@@ -1,0 +1,156 @@
+.asm-container {
+    width: 970px;
+    margin: 2em auto 2em;
+}
+
+.asm-container fieldset {
+    padding: 8px;
+}
+
+.asm-container input[type=button] {
+    margin: 8px;
+    padding: 4px;
+}
+
+
+.asm-container div.register {
+    margin-left: .5em;
+    margin-right: .5em;
+    width: 10em;
+    display: inline-block;
+}
+
+
+.text-section {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-right: 1em;
+}
+
+
+.stack-section {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 1em;
+}
+
+
+.asm-container table {
+    border-collapse: collapse;
+    margin-top: .3em;
+}
+
+
+.asm-container table, th, td {
+    border: 1px solid black;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+
+.asm-container table th {
+    color: #FFF;
+    background-color: #333;
+}
+
+
+.ts-label {
+    color: #E34ADC;
+    font-weight: bold;
+}
+
+.ts-op {
+    color: #800;
+    font-weight: bold;
+}
+
+.ts-reg {
+    color: #008;
+    font-weight: bold;
+}
+
+.ts-im {
+    color: #080;
+    font-weight: bold;
+}
+
+.ts-string {
+    color: #088;
+    font-weight: bold;
+}
+
+
+.asm-container tr:nth-child(even) {
+    background-color: #FFF;
+}
+
+.asm-container tr:nth-child(odd) {
+    background-color: #EEE;
+}
+
+
+tr.function-0:nth-child(even),
+.stack-section tr.function-0:nth-child(even) {
+    background-color: #FEE;
+}
+
+tr.function-0:nth-child(odd),
+.stack-section tr.function-0:nth-child(odd) {
+    background-color: #EDD;
+}
+
+
+tr.function-1:nth-child(even),
+.stack-section tr.function-1:nth-child(even) {
+    background-color: #EFE;
+}
+
+tr.function-1:nth-child(odd),
+.stack-section tr.function-1:nth-child(odd) {
+    background-color: #DED;
+}
+
+
+tr.function-2:nth-child(even),
+.stack-section tr.function-2:nth-child(even) {
+    background-color: #EEF;
+}
+
+tr.function-2:nth-child(odd),
+.stack-section tr.function-2:nth-child(odd) {
+    background-color: #DDE;
+}
+
+.asm-container tr.activated,
+tr.function-0.activated,
+tr.function-1.activated,
+tr.function-2.activated {
+    background-color: #ABBFFE;
+}
+
+.asm-container tr.error,
+tr.function-0.error,
+tr.function-1.error,
+tr.function-2.error {
+    background-color: #FEABBF;
+}
+
+
+td.stack-esp {
+    color: #800;
+    font-weight: bold;
+}
+
+
+td.stack-ebp {
+    color: #008;
+    font-weight: bold;
+}
+
+
+.changed-value {
+    color: #F00;
+    font-weight: bold;
+}

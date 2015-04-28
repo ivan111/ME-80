@@ -1,0 +1,15 @@
+{
+    "env": {
+        "browser": true,
+        "jquery": true,
+        "jasmine": true
+    },
+
+    "globals": {
+        "me": true
+    },
+
+    "rules": {
+        "no-use-before-define": [true, "nofunc"]
+    }
+}
